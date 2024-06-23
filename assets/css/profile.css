@@ -1,0 +1,392 @@
+*{padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Profile_menu{
+    width: 16%;
+    height: 100vh;
+    border-right: 1px solid #d9d5d5;
+}
+#Profile_img{
+    height: 25px;
+    width: 25px;
+    margin-top: 5px;
+    position: relative;
+    left: 10px;
+}
+#Profile_border{
+    width: 200px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#Profile_border_start{
+    width: 200px;
+    height: 100px;
+}
+#Profile_start_img{
+    width: 100px;
+    height: 30px;
+    margin-right: 45px;
+    cursor: pointer;
+}
+.Profile_menu_setting{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Profile_menu_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Profile_border_span{
+    font-size: 17px;
+    position: relative;
+    top: 4px;
+    left: 20px;
+    font-weight: lighter;
+}
+.Profile_img_table{
+    width: 34px;
+    height: 34px;
+    position: relative;
+    left: 5px;
+    border-radius: 50%;
+    border: 1px solid #3d3c3c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Profile_reels{
+    width: 32px;
+    height: 32px;
+    position: relative;
+    right: 3px;
+    top: 3px;
+}
+.Profile_reels{
+    position: relative;
+    left: 7px;
+}
+#Profile_border:hover #Profile_img{
+    scale: 1.1;
+    transition: 0.2s;
+}
+#Profile_border:hover{
+    background: #efefef;
+}
+#Profile_border:hover .Profile_reels{
+    scale: 1.1;
+    transition: 0.2s;
+}
+.Profile_menu_img:hover .Profile_img_table{
+    scale: 1.1;
+    transition: 0.2s;
+}
+.Profile_header{
+    width: 84%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Profile_view{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.Profile_about_you{
+    margin-top: 30px;
+    width: 60%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+.Profile_about_save{
+    width:60%;
+    height: 100px;
+    margin-top: 30px;
+    display: flex;
+
+}
+.Profile_about_posts{
+    width: 60%;
+    height: 400px;
+    margin-top: 30px;
+    display: flex;
+}
+.Profile_header_img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 1px solid #c7c5c5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Profile_edit_information{
+    display: flex;
+    flex-direction: column;
+    min-width:300px;
+    max-width: 600px;
+}
+.information{
+    display: flex;
+}
+.follow_and_posts{
+    display: flex;
+}
+.Profile_name{
+    display: flex;
+}
+#Profile_button{
+    height: 30px;
+    width: 180px;
+    border-radius: 10px;
+    border-style: none;
+    font-weight: bold;
+    margin: 5px;
+    cursor: pointer;
+}
+#Profile_button:hover{
+    background: #c0bfbf;
+}
+.Profile_fullname{
+    margin: 10px;
+    font-size: 18px;
+}
+.follow_and_posts{
+    min-width: 150px;
+    max-width: 390px;
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+    font-size: 17px;
+    color: #3d3c3c;
+}
+.Profile_name{
+    position: relative;
+    left: 12px;
+}
+
+.Profile_view{
+
+    z-index: 1;
+    position: absolute;
+}
+.second_sloy{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background: #3d3c3c;
+    z-index: 2;
+    opacity: 0.6;
+    display: none;
+}
+.Profile_change_img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    height: 300px;
+    position: absolute;
+    top: 200px;
+    left: 600px;
+    z-index: 3;
+    background:white ;
+    border-radius: 10px;
+    font-family: "Gill Sans MT";
+
+}
+.Profile_change_img_table{
+    width:75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 1px solid #c0bfbf;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Profile_change_img_sync{
+    font-size: 19px;
+    color: #3d3c3c;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.Profile_change_img_instagram_facebook{
+    color: #3d3c3c;
+    opacity: 0.5;
+}
+#button_change_img{
+    width: 100%;
+    height: 40px;
+    border-style: none;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    font-weight: bold;
+    border-radius: 12px;
+    cursor: pointer;
+    position: relative;
+
+}
+.button_change_img_div{
+    width: 100%;
+    height: 124px;
+    position: relative;
+    top: 20px;
+}
+.button_change_img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 35px;
+}
+.form_Profile_img{
+    position: relative;
+    bottom: 5px;
+}
+.Profile_about_save{
+    width: 80%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Profile_mijankyal{
+    width: 80%;
+    height: 1px;
+    background-color: #c0bfbf;
+}
+.Profile_actual{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid #c7c5c5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: #c0bfbf;
+}
+.Profile_actual_all{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.Profile_actual_title{
+    position: relative;
+    top: 10px;
+}
+.Profile_add_post_div{
+    width: 600px;
+    height: 700px;
+    display: none;
+    border: solid 1px #c0bfbf;
+
+}
+.Profile_add_post_div_all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Profile_post_divflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+    border: 1px solid #c0bfbf;
+}
+.Profile_add_post{
+    border: 3px solid #c0bfbf;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.Profile_addpost_icon_div{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Profile_addpost_title_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 15px;
+}
+.Profile_addpost_line{
+    width: 100%;
+    height: 2px;
+    background-color: #c0bfbf;
+    position: relative;
+    top: 25px;
+}
+.Profile_addpost_title_add{
+    background-color: white;
+    font-family: "Segoe UI Semibold";
+    font-size: 20px;
+}
+.Profile_addpost_ttile_add_div{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Post_addpost_form_div{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 25px;
+}
+.addpost_submit{
+    width: 200px;
+    height: 30px;
+    border-radius: 8px;
+    border-style: none;
+    background-color: #0095F6;
+}
+.Post_addpost_form{
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Post_addpost_form_div_secondsloy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#addpost_submit_choosen{
+    position: relative;
+    top: 25px;
+}
+#addpost_submit_ok{
+    position: relative;
+    top: -15px;
+}
+.Profile_posts_like_count{
+    font-size: 22px;
+    position: absolute;
+    color: #f30202;
+
+}
+.Profile_div_for_like{
+    width: 150px;
+    height: 300px;
+    display: flex;
+}

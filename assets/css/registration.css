@@ -1,0 +1,124 @@
+.registration_header{
+    width: 350px;
+    height: 700px;
+    border: 1px solid #DBDBDBFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.registration_window{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.registration_app_install{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.registration_googleplay{
+    width: 120px;
+    height: 40px;
+}
+.registration_apple{
+    width: 120px;
+    height: 40px;
+}
+.registration_instagram_logo{
+    width: 170px;
+    margin-top: 40px;
+}
+.registration_text_registration{
+    width: 260px;
+    color: #737373FF;
+    text-align: center;
+    font: inherit;
+    font-size: 19px;
+}
+.registration_with_fb{
+    width: 270px;
+    border-style:none;
+    border-radius: 10px;
+    background: #0095F6FF;
+    color: azure;
+    font-size: 15px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+}
+.with_facebook{
+    padding: 10px;
+}
+
+#registration_left_line{
+    width: 90px;
+    height:0.1px;
+    background: #DBDBDBFF;
+}
+#registration_right_line{
+    width: 90px;
+    height: 0.1px;
+    background: #DBDBDBFF;
+}
+.registration_ili{
+    color:#737373FF;
+    font-size: 20px;
+}
+.registration_or{
+    width: 280px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.registration_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 48px;
+}
+#input{
+    width: 263px;
+    height: 35px;
+    margin: 2px;
+    border-style: none;
+    border: 0.5px solid  #DBDBDBFF;
+}
+.span{
+    color: #737373FF;
+}
+.registration_submit{
+    width: 270px;
+    border-style:none;
+    border-radius: 10px;
+    background: #0095F6FF;
+    color: azure;
+    font-size: 15px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    margin-top: 10px;
+}
+#span_1{
+    margin-top: 19px;
+}
+.back_login{
+    width: 350px;
+    height: 70px;
+    border: 1px solid #DBDBDBFF;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#registration_error{
+    color: red;
+    font-size: 14px;
+}

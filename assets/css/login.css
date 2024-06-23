@@ -1,0 +1,147 @@
+:root{
+
+}
+.login_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 30px;
+    left: -100px;
+}
+.login_main_phone{
+    width: 350px;
+    height: 570px;
+    position: relative;
+}
+.screenphone{
+    position: absolute;
+}
+.screenshot1{
+    position: absolute;
+    top: 29px;
+    left: 156px;
+}
+.login_form{
+    width: 365px;
+    height: 370px;
+    border: 0.001px solid #DBDBDBFF;
+    margin: 100px;
+    position: relative;
+    bottom: 85px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.login_form_form{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.login_input_username{
+    position: relative;
+    border-style: none;
+    width: 250px;
+    height: 28px;
+    top: 11px;
+    border: 1px solid #DBDBDBFF;
+    margin-bottom: 5px;
+}
+.login_input_password{
+    width: 250px;
+    height: 28px;
+    border-style: none;
+    border: 1px solid #DBDBDBFF;
+}
+.login_input_submit{
+    width: 260px;
+    height: 28px;
+    background:#4CB5F9FF;
+    border-style: none;
+    border-radius: 7px;
+    color: azure;
+    font-weight: bold;
+}
+#login_left_line{
+    width: 90px;
+    height:0.1px;
+    background: #DBDBDBFF;
+}
+#login_right_line{
+    width: 90px;
+    height: 0.1px;
+    background: #DBDBDBFF;
+}
+.login_ili{
+    color:#737373FF;
+    font-size: 20px;
+}
+.login_or{
+    width: 280px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.login_facebook{
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+    align-items: center;
+}
+#login_forgot{
+    font-weight: inherit;
+    position: relative;
+    bottom: 10px;
+}
+.login_instagram_logo{
+    position: relative;
+    top: 20px;
+}
+.login_registration{
+    width: 365px;
+    height: 60px;
+    border: 0.1px solid #DBDBDBFF;
+    position: relative;
+    left: 100px;
+    bottom: 170px;
+}
+.login_form_register{
+    position: relative;
+    top: 12px;
+    width: 365px;
+    height: 600px;
+}
+.login_p_registration{
+    position: relative;
+    left: 28px;
+    top: 5px;
+}
+.login_app_install{
+    position: relative;
+    bottom: 170px;
+    left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login_googleplay{
+    width: 120px;
+    height: 40px;
+}
+.login_apple{
+    width: 120px;
+    height: 40px;
+}
+#login_carousel{
+    animation: infinite;
+    animation-name: carousel;
+    animation-duration: 4s;
+    animation-delay: 3s;
+}
+#login_span_error{
+    color: red;
+    font-size: 14px;
+}

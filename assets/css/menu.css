@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Profile_menu{
+    width: 16%;
+    height: 100vh;
+    border-right: 1px solid #d9d5d5;
+}
+#Profile_img{
+    height: 25px;
+    width: 25px;
+    margin-top: 5px;
+    position: relative;
+    left: 10px;
+}
+#Profile_border{
+    width: 200px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#Profile_border_start{
+    width: 200px;
+    height: 100px;
+}
+#Profile_start_img{
+    width: 100px;
+    height: 30px;
+    margin-right: 45px;
+    cursor: pointer;
+}
+.Profile_menu_setting{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Profile_menu_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Profile_border_span{
+    font-size: 17px;
+    position: relative;
+    top: 4px;
+    left: 20px;
+    font-weight: lighter;
+}
+.Profile_img_table{
+    width: 34px;
+    height: 34px;
+    position: relative;
+    left: 5px;
+    border-radius: 50%;
+    border: 1px solid #3d3c3c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Profile_reels{
+    width: 32px;
+    height: 32px;
+    position: relative;
+    right: 3px;
+    top: 3px;
+}
+.Profile_reels{
+    position: relative;
+    left: 7px;
+}
+#Profile_border:hover #Profile_img{
+    scale: 1.1;
+    transition: 0.2s;
+}
+#Profile_border:hover{
+    background: #efefef;
+}
+#Profile_border:hover .Profile_reels{
+    scale: 1.1;
+    transition: 0.2s;
+}
+.Profile_menu_img:hover .Profile_img_table{
+    scale: 1.1;
+    transition: 0.2s;
+}
